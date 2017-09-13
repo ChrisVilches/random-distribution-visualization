@@ -1,0 +1,23 @@
+{
+  "name": "random-distribution-visualization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FeloVilches/random-distribution-visualization.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FeloVilches/random-distribution-visualization/issues"
+  },
+  "homepage": "https://github.com/FeloVilches/random-distribution-visualization#readme",
+  "dependencies": {
+    "express": "^4.15.4"
+  }
+}
