@@ -18,6 +18,10 @@ var lineChart = new Chart(ctx, {
   }
 });
 
+function rand(){
+  return Math.random();
+}
+
 
 function showChart(fn, iterations){
 
@@ -61,9 +65,8 @@ $(document).ready(function(){
   $('#ok-btn').click(function(){
     var txt = editor.getValue();
     var iterations = +$("#iterations-input").val();
-    var fn = new Function(txt);
-
     try {
+      var fn = new Function(txt);
       showChart(fn, iterations);
     } catch(e){
       $.notify(e, {
