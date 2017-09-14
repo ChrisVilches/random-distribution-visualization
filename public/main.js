@@ -18,9 +18,8 @@ var lineChart = new Chart(ctx, {
   }
 });
 
-function rand(){
-  return Math.random();
-}
+
+var rand = Math.random;
 
 
 function showChart(fn, iterations){
